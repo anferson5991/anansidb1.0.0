@@ -1,0 +1,69 @@
+.titleBar {
+    -webkit-app-select: none; /* <-- Add this line */
+    -webkit-app-region: drag; /* <-- Add this line */
+    background-color: #003366;
+    width: 100%;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Certifique-se de que a barra de título esteja acima de outros elementos */
+}
+body {
+    background-color: #003366; /* Azul Escuro */
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif; /* Adicione uma fonte padrão */
+  }
+  
+  h1 {
+    color: #F5F5F5; /* Verde */
+  }
+  
+  h2 {
+    color: #F5F5F5; /* Verde */
+  }
+  
+  label {
+    color: #F5F5F5; /* Cinza Claro para rótulos */
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #F5F5F5; /* Cinza Claro */
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #F5F5F5; /* Cinza Claro */
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #388E3C; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  pre {
+    color: #F5F5F5; /* Cinza Claro */
+  }
+  
