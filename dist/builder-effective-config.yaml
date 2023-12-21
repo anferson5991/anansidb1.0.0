@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: resources
+appId: com.anansidb.app
+productName: AnansiDB
+nsis:
+  oneClick: false
+  perMachine: true
+win:
+  target: nsis
+extraResources:
+  - from: resources/
+    to: resources
+files: []
+electronVersion: 28.0.0

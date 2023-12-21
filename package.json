@@ -26,33 +26,22 @@
   },
   "build": {
     "appId": "com.anansidb.app",
+    "icon": "resources/anansi.ico",
     "productName": "AnansiDB",
-    "win": {
-      "target": {
-        "target": "nsis",
-        "arch": ["x64"] 
-      },
-      "icon": "resources/anansi.ico"
+    "directories": {
+      "buildResources": "resources"
     },
     "nsis": {
-      "oneClick": true, 
-      "perMachine": true, 
-      "allowElevation": true, 
-      "installerIcon": "resources/anansi.ico", 
-      "uninstallerIcon": "resources/anansi.ico", 
-      "allowToChangeInstallationDirectory": false 
+      "oneClick": false,
+      "perMachine": true
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "dist"
+    "win": {
+      "icon": "resources/anansi.ico",
+      "target": "nsis"
     },
-    "files": [
-      "**/*",
-      "resources/**/*"
-    ],
     "extraResources": [
       {
-        "from": "./resources/",
+        "from": "resources/",
         "to": "resources"
       }
     ]
