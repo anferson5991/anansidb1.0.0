@@ -43,6 +43,7 @@
       "allowToChangeInstallationDirectory": false 
     },
     "directories": {
+      "buildResources": "resources",
       "output": "dist"
     },
     "files": [
