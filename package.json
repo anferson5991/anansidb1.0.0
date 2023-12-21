@@ -5,7 +5,7 @@
   "scripts": {
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
-    "build": "electron-builder --win --x64"
+    "build": "electron-builder --win --x64 --ia32"
   },
   "homepage": "www.anansidb.com",
   "author": "anansidb",
@@ -26,22 +26,30 @@
   },
   "build": {
     "appId": "com.anansidb.app",
-    "icon": "resources/anansi.ico",
     "productName": "AnansiDB",
     "directories": {
       "buildResources": "resources"
     },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true
-    },
     "win": {
       "icon": "resources/anansi.ico",
-      "target": "nsis"
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64", "ia32"]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "installerIcon": "resources/anansi.ico",
+      "uninstallerIcon": "resources/anansi.ico",
+      "allowToChangeInstallationDirectory": true
     },
     "extraResources": [
       {
-        "from": "resources/",
+        "from": "./resources/",
         "to": "resources"
       }
     ]

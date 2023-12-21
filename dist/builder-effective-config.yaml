@@ -3,13 +3,22 @@ directories:
   buildResources: resources
 appId: com.anansidb.app
 productName: AnansiDB
+win:
+  icon: resources/anansi.ico
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
 nsis:
   oneClick: false
   perMachine: true
-win:
-  target: nsis
+  allowElevation: true
+  installerIcon: resources/anansi.ico
+  uninstallerIcon: resources/anansi.ico
+  allowToChangeInstallationDirectory: true
 extraResources:
-  - from: resources/
+  - from: ./resources/
     to: resources
 files: []
 electronVersion: 28.0.0
