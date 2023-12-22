@@ -103,8 +103,8 @@ nsis:
 
     !addincludedir "C:\Users\Administrator\Documents\anansi-final\resources"
     !include "C:\Users\Administrator\Documents\anansi-final\resources\installer.nsh"
-    !include "C:\Users\ADMINI~1\AppData\Local\Temp\2\t-DnDqBj\0-messages.nsh"
-    !include "C:\Users\ADMINI~1\AppData\Local\Temp\2\t-DnDqBj\1-messages.nsh"
+    !include "C:\Users\ADMINI~1\AppData\Local\Temp\2\t-SeP2pS\0-messages.nsh"
+    !include "C:\Users\ADMINI~1\AppData\Local\Temp\2\t-SeP2pS\1-messages.nsh"
     !addplugindir /x86-unicode "C:\Users\Administrator\AppData\Local\electron-builder\Cache\nsis\nsis-resources-3.4.1\plugins\x86-unicode"
 
     Var newStartMenuLink
