@@ -1,8 +1,8 @@
 version: 1.0.0
 files:
   - url: AnansiDB-Setup-1.0.0.exe
-    sha512: xKEjohePrxRMb9dmWkJtQpOnFmcJcuxUNovskism/NPKlrpJ74c+u/RvsC525E62IXl0HRtNR+GaS43gvNE8eg==
-    size: 349093597
+    sha512: fNIv4kjiecu8fa6fRmTg5VMiR9eoahDXeUsh71QdpgWCZwmMytlnV0FMe7ezueHNdJE+rTb+OTI6zhSrlKGhQQ==
+    size: 245399356
 path: AnansiDB-Setup-1.0.0.exe
-sha512: xKEjohePrxRMb9dmWkJtQpOnFmcJcuxUNovskism/NPKlrpJ74c+u/RvsC525E62IXl0HRtNR+GaS43gvNE8eg==
-releaseDate: '2023-12-21T04:22:39.481Z'
+sha512: fNIv4kjiecu8fa6fRmTg5VMiR9eoahDXeUsh71QdpgWCZwmMytlnV0FMe7ezueHNdJE+rTb+OTI6zhSrlKGhQQ==
+releaseDate: '2023-12-22T02:16:32.405Z'
