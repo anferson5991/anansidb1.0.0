@@ -49,10 +49,11 @@
     },
     "extraResources": [
       {
-        "from": "./resources/",
-        "to": "./"
+        "from": "./resources/*",
+        "to": "resources"
       }
     ]
+    
   },
   "description": "AnansiDB - A data scraping company."
 }

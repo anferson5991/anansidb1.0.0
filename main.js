@@ -4,6 +4,11 @@ const mysql = require('mysql');
 const {Database} = require('sqlite3').verbose();
 const { spawn } = require('child_process');
 const isDev = require('electron-is-dev');
+const userDataPath = app.getPath('userData');
+const dbPath = path.join(userDataPath, 'anansi.db');
+
+console.log(userDataPath);
+console.log(dbPath);
 
 let window;
 let isScriptRunning = false;
@@ -53,11 +58,6 @@ function createWindow(file) {
   });
 }
 
-function getDatabasePath() {
-  return isDev
-      ? path.join(__dirname, 'resources', 'anansi.db') // Caminho em desenvolvimento
-      : path.join(process.resourcesPath, 'anansi.db');  // Caminho em produção
-}
 
 function getExecutablePath() {
   return isDev
@@ -83,7 +83,6 @@ function saveToSQLiteAndExecuteScript(data) {
   console.log('Initiating the operation to save to SQLite...');
 
   // Caminho para o anansi.db, diferente para desenvolvimento e produção.
-  const dbPath = getDatabasePath();
   const db = new Database(dbPath);
   
   db.run('CREATE TABLE IF NOT EXISTS anansi (rowid INTEGER PRIMARY KEY, link TEXT)');
@@ -109,7 +108,7 @@ async function executePythonScript() {
   const executablePath = getExecutablePath();
   
   try {
-      const processResult = spawn(executablePath, [], { encoding: 'utf8' });
+    const processResult = spawn(executablePath, [dbPath], { encoding: 'utf8' });  // Passa dbPath como argumento
       processResult.stdout.on('data', (data) => {
           console.log(`stdout: ${data}`);
       });
@@ -130,7 +129,6 @@ async function executePythonScript() {
 
 function saveUser(username) {
   // Caminho para o anansi.db, diferente para desenvolvimento e produção.
-  const dbPath = getDatabasePath();
 
   const db = new Database(dbPath);
   db.run('CREATE TABLE IF NOT EXISTS userHistory (rowid INTEGER PRIMARY KEY, username TEXT, link TEXT)');
