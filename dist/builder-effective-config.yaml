@@ -18,7 +18,7 @@ nsis:
   uninstallerIcon: resources/anansi.ico
   allowToChangeInstallationDirectory: true
 extraResources:
-  - from: ./resources/*
-    to: resources
+  - from: ./resources/
+    to: ./
 files: []
 electronVersion: 28.0.0

@@ -64,6 +64,7 @@ function getExecutablePath() {
       ? path.join(__dirname, 'resources', 'anansi.exe') // Caminho em desenvolvimento
       : path.join(process.resourcesPath, 'anansi.exe'); // Caminho em produção
 }
+console.log("O path do anansi.exe eh: ", getExecutablePath())
 
 
 function performUserInsertion(connection, registerData) {

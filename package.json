@@ -49,8 +49,8 @@
     },
     "extraResources": [
       {
-        "from": "./resources/*",
-        "to": "resources"
+        "from": "./resources/",
+        "to": "./"
       }
     ]
     
