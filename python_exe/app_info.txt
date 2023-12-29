@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "developer": {
+      "name": "IDZ Digital Private Limited",
+      "url": "http://www.idzdigital.com",
+      "email": "support@idzdigital.com"
+    },
+    "downloads_info": {
+      "long_form_not_formatted": "10,000,000+",
+      "long_form_formatted": "10000000",
+      "as_displayed_short_form": "10M+",
+      "actual_downloads": "20198554"
+    },
+    "name": "Tizi Town - My Airport Games",
+    "type": "SoftwareApplication",
+    "url": "https://play.google.com/store/apps/details/Tizi_Town_My_Airport_Games?id=com.iz.pretend.play.my.monster.town.airport.games.kids&hl=en_GB",
+    "description": "Welcome to my Tizi town airport : Play amazing airplane games & travel the world",
+    "application_category": "GAME_EDUCATIONAL",
+    "operating_system": "ANDROID",
+    "thumbnail": "https://play-lh.googleusercontent.com/XlFvexIFsat2ySVwyq6N9t3zAZmmhJzzY7sMUlPoF4k9VNRAFVwEcqOFAfDWUSFDoR8",
+    "content_rating": "Everyone",
+    "rating": 4.0,
+    "reviews": "31876",
+    "price": "0",
+    "release_date": "13 Jun 2019",
+    "images": [
+      "https://play-lh.googleusercontent.com/uCV4BzqwdsnZpdb093kQub2o7XL8jFaZVcPEpIaVIad1rUz1bpcWve5rvMXguNiOiyQ",
+      "https://play-lh.googleusercontent.com/mnneHRirHRAGXSJyn-yyf3RAyWj1z_6N72c7j0OQcgnicUk__9xe9k750oYVQisHGAw",
+      "https://play-lh.googleusercontent.com/BSiu-ccu287vLopLkYMffvrvjw-Q_Wo37ONoc2h1ZYUXgGXiv4JfNJRxFQb2gL2qDJY",
+      "https://play-lh.googleusercontent.com/qrsM1-wsl1yFFe0rwxADu8QZ7FNGutUI5MpMLPVNixCOrRCMZ8eHaYLYGNJLpMuiu-uQ",
+      "https://play-lh.googleusercontent.com/OuTCFqJHYnRIcBD2OFAC6kpU_w1lVXpaBMo2h11JXWWceguzX1DgSMPlLqNyRGypTg",
+      "https://play-lh.googleusercontent.com/9pejL0RDCYBAc562R0ZWcJVcSm9QTC2PsFO28aYxdu4jCC3sLBIfJtWLRgrslGZ9hls",
+      "https://play-lh.googleusercontent.com/GEzaZvm1xz6PeTZpOPEn5G596CowN83NEwUP_Ek7LzMU3HgoBzY1hF-cYzrb_FVs0Q",
+      "https://play-lh.googleusercontent.com/aJ1YrXtKXlZ6VlUW8ioUrDQUw8PND0r0HsWtI8ftMKa5ZbfntwOH-Ceefxiu048u9Sf_",
+      "https://play-lh.googleusercontent.com/VgK5KRlCBPDl2Is71P6fTS851oYKAfDU58zMazXyqOxFF_68szbXIP1wRr4jf00mslk",
+      "https://play-lh.googleusercontent.com/Zm65I6zLcA3gvq9PpaJcicruSbOgRLTVou_Zg6dhnUWlrKgnbKCHmkIqYkbYUDgBSCY",
+      "https://play-lh.googleusercontent.com/AbylJ_RqFKCCrDuAAEYm4r-Ok0w83536uOzoZWJdOmZRj66iX1P_VLQu-3f-Egtti7I",
+      "https://play-lh.googleusercontent.com/MdnuJflXiI3zMWGUvZGLQyCAEwmGnkfY7uTlf2ZU1y2Ou4idxJ4ZBjvIrucNzsXntYw",
+      "https://play-lh.googleusercontent.com/tSCJmwx69Gt1dAsBjt5Ipe0ZSUrF-mfrdVWejIOdXd-zIGc7GYjr8xFa_0p6xqX6QA",
+      "https://play-lh.googleusercontent.com/w2QNrjEZd7bL_-VfeH-BE8stAsa3nksByqUgZb0Qu0koUz4hh6btMxtvEqktaximDng",
+      "https://play-lh.googleusercontent.com/Myd5yw9yoaHezXhbUHIfq7HfPFENaGCE51XYzj3jSCxsK8frYsiM11sF_03rCj1vztWP",
+      "https://play-lh.googleusercontent.com/Tpsw1KuPzTPo3dGklE4XRJDEGiFjcalaLhf1bKAjO5bEY0Fk0JXmw5OdnoJCyw-SqNgV",
+      "https://play-lh.googleusercontent.com/72jy30j4O-hv4hEAQu2KnOjBx4zpnpn7EOwTpPcC_6FmkkWAwvdzMu2HVf4N9NlkCw",
+      "https://play-lh.googleusercontent.com/g5-BgAvCh_jfXW8R0p3sQi6xhnfmMYYAbofC862xA1pnHsyJWPJk0hphVllTButb2A",
+      "https://play-lh.googleusercontent.com/eMw2ht9ndL-KHpkzvfpbUox_nLGmTv-66bPBLTBkbyU584NNjLnVvcoyXNCkCB3conU",
+      "https://play-lh.googleusercontent.com/OmUPrdewGYgXPMPNzbjMOQa4bTHb-SkmhJd58X3MsIgcythkI6RlUd-cK9W7tHom27g",
+      "https://play-lh.googleusercontent.com/ns5wajYw99Mjt3_rfKTfD07A1PtHEgRao812sA176QkuyyZ8wQ2NC9v5bRM9ns-ZIX4",
+      "https://play-lh.googleusercontent.com/BDdxfVeSW8pse357WRKLAjSyI0E3Oq9ospori4Ka48eydxYZv-0OKe-dl7wSq-5qT7U",
+      "https://play-lh.googleusercontent.com/nDC-U5RtWGnO0swUOEqa0yN3BpzHkkHWMRzmelRT3uQPk_4TWNvdI4Aok6hPzPS-s0it",
+      "https://play-lh.googleusercontent.com/e3Vfq5AgrBFhm9XXQRWTaZ_OzQ82wjPEBWjmtcbQWcOCuzzioVZNQCV0NKHMyQzCxzg",
+      "https://play-lh.googleusercontent.com/XlFvexIFsat2ySVwyq6N9t3zAZmmhJzzY7sMUlPoF4k9VNRAFVwEcqOFAfDWUSFDoR8",
+      "https://play-lh.googleusercontent.com/nweFEiuDzPIWhTUWm2gReQIsMFKI25oCEGOPvCX4vUGkMhF58fH52_tgaq0Nz5nOZKw",
+      "https://play-lh.googleusercontent.com/nweFEiuDzPIWhTUWm2gReQIsMFKI25oCEGOPvCX4vUGkMhF58fH52_tgaq0Nz5nOZKw"
+    ],
+    "video_trailer": "https://play-games.googleusercontent.com/vp/mp4/1280x720/0T3BvlMd6_4.mp4"
+  },
+  "user_comments": []
+}

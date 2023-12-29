@@ -26,6 +26,7 @@ function createWindow(file) {
     minWidth: 400, 
     minHeight: 300,
     webPreferences: {
+      devTools: false,
       backgroundColor: '#003366',
       contextIsolation: true,
       enableRemoteModule: false,
@@ -37,6 +38,11 @@ function createWindow(file) {
   window.setMenuBarVisibility(false);
   window.loadFile(file);
   console.log('Window created for file:', file);
+
+  // Desabilita o acesso às DevTools através de métodos alternativos
+  window.webContents.on('devtools-opened', () => {
+    win.webContents.closeDevTools();
+  });
 
   window.on('closed', () => {
     window = null;
